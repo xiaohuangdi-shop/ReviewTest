@@ -9,6 +9,11 @@ public abstract class DeathBase : MonoBehaviour
 
     [SerializeField]
     protected bool _isDead = false;
+    /// <summary>
+    /// 死んだかどうか検討する変数フラグ
+    /// 死亡後 true
+    /// デフォルト false
+    /// </summary>
     public bool IsDead => _isDead;
     
     private readonly Rect _viewRect = new Rect(0f, 0f, 1f, 1f);
