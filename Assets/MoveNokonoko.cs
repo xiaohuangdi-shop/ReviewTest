@@ -6,13 +6,13 @@ public class MoveNokonoko : MoveCharactor
 {
     private void OnTriggerExit2D(Collider2D collision)
     {
-        switch (eMoveType)
+        switch (_eMoveType)
         {
             case EMoveType.Left:
-                eMoveType = EMoveType.Right;
+                _eMoveType = EMoveType.Right;
                 break;
             case EMoveType.Right:
-                eMoveType = EMoveType.Left;
+                _eMoveType = EMoveType.Left;
                 break;
         }
     }

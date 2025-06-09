@@ -21,7 +21,7 @@ public abstract class MoveBase : MonoBehaviour
     }
 
     [SerializeField]
-    protected EMoveType eMoveType = EMoveType.None;
+    protected EMoveType _eMoveType = EMoveType.None;
 
     [SerializeField]
     protected float _moveSpeedSec = 1f;
@@ -35,7 +35,7 @@ public abstract class MoveBase : MonoBehaviour
         // ガード節　オート機能がOFFだった場合は以降なにもしない
         if (_autoMove == false) return;
 
-        switch (eMoveType)
+        switch (_eMoveType)
         {
             case EMoveType.Left:
                 MoveLeft(_moveSpeedSec);

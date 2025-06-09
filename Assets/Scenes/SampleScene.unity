@@ -445,7 +445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0726c7a80b273134e9e72eaa8b5ecf1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eMoveType: 0
+  _eMoveType: 0
   _moveSpeedSec: 5
   _autoMove: 0
   _myDeath: {fileID: 1260780315}
@@ -861,7 +861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2610ea70d329b314ab2a2290ef801eaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eMoveType: 1
+  _eMoveType: 1
   _moveSpeedSec: 1.5
   _autoMove: 1
   _myDeath: {fileID: 1726499176}
