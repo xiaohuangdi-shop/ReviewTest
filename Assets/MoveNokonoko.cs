@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// のこのこを動かすスクリプト
+/// </summary>
 public class MoveNokonoko : MoveCharacter
 {
     private void OnTriggerExit2D(Collider2D collision)
